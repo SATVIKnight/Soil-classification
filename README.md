@@ -2,7 +2,7 @@
 Submission for annam.ai competition
 # Soil Type Classification using ResNet18
 
-This project classifies soil images into five categories using a fine-tuned ResNet18 model. It is structured for reproducibility, modularity, and ease of experimentation.
+This project classifies soil images into four categories using a fine-tuned ResNet18 model. It is structured for reproducibility, modularity, and ease of experimentation.
 
 ---
 
@@ -77,3 +77,4 @@ pip install torch torchvision pandas scikit-learn matplotlib pillow
 
 ## 👤 Author
 Satvik Keshtwal – @satviknight
+Shalini Mittal - @sha-lini-mittal
