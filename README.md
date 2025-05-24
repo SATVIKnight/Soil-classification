@@ -15,6 +15,8 @@ This project classifies soil images into five categories using a fine-tuned ResN
 
 ---
 
+
+
 ## 🛠️ Installation & Setup
 
 ```bash
@@ -28,10 +30,10 @@ source env/bin/activate  # or `env\Scripts\activate` on Windows
 
 # Install dependencies
 pip install -r requirements.txt
-bash'''
+```
 ---
 
-🚀 Training
+## 🚀 Training
 To train the model from scratch or fine-tune it:
 
 Place your dataset in the proper structure as described above.
@@ -41,7 +43,7 @@ Open and run all cells in notebooks/training.ipynb.
 The best model will be saved as best_model.pth.
 ---
 
-🔍 Inference
+## 🔍 Inference
 To generate predictions on the test set:
 
 Make sure best_model.pth is available (from training).
@@ -52,7 +54,7 @@ The output file submission.csv will be created.
 
 ---
 
- Dependencies
+ ## Dependencies
 Python 3.8+
 
 PyTorch
@@ -73,5 +75,5 @@ pip install torch torchvision pandas scikit-learn matplotlib pillow
 
 ---
 
-👤 Author
+## 👤 Author
 Satvik Keshtwal – @satviknight
