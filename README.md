@@ -76,5 +76,4 @@ pip install torch torchvision pandas scikit-learn matplotlib pillow
 ---
 
 ## 👤 Author
-Satvik Keshtwal – @satviknight
-Shalini Mittal - @sha-lini-mittal
+Satvik Keshtwal – @satviknight          Shalini Mittal - @sha-lini-mittal
