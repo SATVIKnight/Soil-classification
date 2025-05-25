@@ -1,0 +1,16 @@
+{
+  "project": "Soil Type Classification",
+  "model": "ResNet18",
+  "input_size": [3, 224, 224],
+  "num_classes": 5,
+  "labels": ["Black", "Laterite", "Red", "Alluvial", "Desert"],
+  "accuracy": 0.91,
+  "f1_score": 0.90,
+  "precision": 0.91,
+  "recall": 0.90,
+  "confusion_matrix_path": "notebooks/confusion_matrix.png",
+  "best_model_path": "best_model.pth",
+  "last_trained": "2025-05-25",
+  "framework": "PyTorch",
+  "hardware": "NVIDIA T4 (16GB)"
+}
